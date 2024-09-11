@@ -131,18 +131,25 @@ footer{
 }
 
 @media (max-width: 855px){
-  nav > div > div{
-      font-size: 1rem;
+  h1{
+    font-size: 3rem;
+    padding: 20px;
+  }
+
+  nav > div > a > div{
+    font-size: 1rem;
+    height: 55px;
+    align-content: center;
   }
 
   #divInput{
-      margin: auto;
-      width: 50%;
+    margin: auto;
+    width: 50%;
   }
 
   #divHr{
-      margin: auto;
-      text-align: center;
-      width: 50%;
+    margin: auto;
+    text-align: center;
+    width: 50%;
   }
 }
