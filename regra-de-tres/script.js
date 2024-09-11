@@ -1,5 +1,5 @@
-const botaoCalcular = document.getElementById('calcular');
-const areaResultado = document.getElementById('textoResult');
+const botaoCalcular = document.querySelector('#calcular');
+const areaResultado = document.querySelector('#textoResult');
 
 function calcular(){
     let num1 = document.querySelector('#num1').value;
