@@ -10,7 +10,7 @@ function calcular(){
 
     //tocar alertas sem executar o código principal
     if(num1 != 'x' && num2 != 'x' && num3 != 'x' && num4 != 'x'){
-        alert("Não é assim que funciona né caraio");
+        alert('Põe o "x" né caraio');
     }if((num1 == 'x' && num2 == 'x') || (num2 == 'x' && num3 == 'x') || (num3 == 'x' && num4 == 'x') || (num2 == 'x' && num4 == 'x') || (num3 == 'x' && num4 == 'x') || (num1 == 'x' && num3 == 'x')){
         alert("É só UMA incógnita, burrão");
     }else{
