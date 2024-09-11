@@ -14,7 +14,7 @@ function bhaskara(){
   
   //tocar alerta sem executar o código principal
   if(termoA == 0){
-    alert("Pôe o valor de A, né animal!");
+    alert("Põe o valor de A, né animal!");
   }else{
     //calculando o delta
     resultadoDelta = (termoB**2 - (4*termoA*termoC));
